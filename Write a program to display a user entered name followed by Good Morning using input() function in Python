@@ -1,0 +1,8 @@
+'''
+Write a program to display a user entered name followed by Good Morning using input() function in Python
+Coded BY Abhishek D Shelar.
+'''
+
+name = input("Enter your name: ")
+
+print('''Good Morning, ''',name)
