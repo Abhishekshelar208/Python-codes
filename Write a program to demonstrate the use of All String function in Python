@@ -1,0 +1,26 @@
+'''
+Write a program to demonstrate the use of All String function in Python
+Coded BY Abhishek D Shelar.
+'''
+
+story = '''once there was a boy who became bored when he watched over the village sheep grazing on the hillside.
+To entertain himself, he sang out, “Wolf! Wolf! The wolf is chasing the sheep!” '''
+
+# This is are String function in python
+print(len(story))
+print(story.endswith("Wow"))
+print(story.count("c"))
+print(story.capitalize())
+print(story.find("the"))
+print(story.replace("the" , "ABHI"))
+print("")
+
+name = "Abhishek"
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print(name[0:6])
+print(name[0:])
+print(name[:8])
+print(name[0:8:2])
