@@ -1,0 +1,12 @@
+'''
+Write a program to calculate square of a number entered by the user in Python
+Coded By Abhishek D Shelar.
+'''
+
+num1 = input("Enter a number: ")
+
+num1 = int(num1)
+
+square = num1*num1
+
+print("The Square is: ",square)
