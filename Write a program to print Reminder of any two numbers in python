@@ -1,0 +1,9 @@
+'''
+Write a program to print Reminder of any two numbers in python
+Coded By Abhishek D Shelar.
+'''
+
+a = 10
+b = 4
+
+print("The Reminder of a and b is: ",a % b)
