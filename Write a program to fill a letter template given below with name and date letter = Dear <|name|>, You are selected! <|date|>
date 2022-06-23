@@ -1,0 +1,21 @@
+'''
+Write a program to fill a letter template given below with name and date
+letter = Dear <|name|>,
+You are selected!
+<|date|>
+Coded BY Abhishek D Shelar.
+'''
+
+letter = '''
+Dear <|name|>,
+You are selected!
+<|date|>
+'''
+
+name = input("Enter your name: ")
+date = input("Enter date: ")
+
+letter = letter.replace("<|name|>",name)
+letter = letter.replace("<|date|>",date)
+
+print(letter)
