@@ -1,0 +1,11 @@
+'''
+Write a program to find average of two numbers in Python
+Coded By Abhishek D Shelar.
+'''
+
+num1 = input("Enter first number: ")
+num2 = input("Enter second number: ")
+
+avg = (int(num1)+int(num2))/2
+
+print("The average of two numbers is: ", avg)
