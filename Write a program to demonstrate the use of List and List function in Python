@@ -1,0 +1,35 @@
+'''
+Write a program to demonstrate the use of List and List function in Python
+Coded BY Abhishek D Shelar.
+'''
+
+roll = [1,22,33,222,11,21,12]
+# This function is used to sort the list
+roll.sort()
+print(roll)
+
+# This is function is used to reverse the list elements
+
+roll.reverse()
+print(roll)
+
+# This function is used to add some element in last of our list
+
+roll.append(45)
+print(roll)
+
+# This function is used to insert an element in particular index
+
+roll.insert(3,3022)
+print(roll)
+
+# This function is used to delete the element from given specific index number
+
+roll.pop(3)
+print(roll)
+
+# This function is used to remove a particular element from the list
+
+roll.remove(45)
+print(roll)
+
