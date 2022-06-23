@@ -1,0 +1,22 @@
+'''
+Write a program to print Variable and its type in Python
+Coded By Abhishek D Shelar.
+'''
+
+# Variables
+a = 10
+b = "Abhishek"
+c = 12.3
+d = True
+
+# printing the variables
+print(a)
+print(b)
+print(c)
+print(d)
+
+# printing the variable type
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
