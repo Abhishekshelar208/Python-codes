@@ -1,0 +1,10 @@
+'''
+Write a program to Use comparison operator to find out weather a is greater than b or not
+Take a = 14 and b = 80 in Python
+Coded By Abhishek D Shelar.
+'''
+
+a = 34
+b = 80
+
+print("a > b is : ", a > b) 
