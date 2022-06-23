@@ -1,0 +1,16 @@
+'''
+Write a program to check the type of the variable assigned using input() function in Python
+Coded By Abhishek D Shelar.
+'''
+
+a = 10
+b = "Abhishek"
+c = 44.34
+d = True
+e = None
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
