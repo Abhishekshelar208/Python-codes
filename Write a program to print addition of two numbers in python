@@ -1,0 +1,9 @@
+'''
+Write a program to print addition of two numbers in python
+Coded By Abhishek D Shelar.
+'''
+
+a = 10
+b = 5
+
+print("Addition is: ",a+b)
