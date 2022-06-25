@@ -1,0 +1,16 @@
+'''
+Write a program to input 8 numbers from the user and display all the unique numbers once in python.
+Coded BY Abhishek D Shelar.
+'''
+
+a = int(input("Enter a number 1 :"))
+b = int(input("Enter a number 2 :"))
+c = int(input("Enter a number 3 :"))
+d = int(input("Enter a number 4 :"))
+e = int(input("Enter a number 5 :"))
+f = int(input("Enter a number 6 :"))
+g = int(input("Enter a number 7 :"))
+h = int(input("Enter a number 8 :"))
+
+myset = {a,b,c,d,e,f,g,h}
+print(myset)
