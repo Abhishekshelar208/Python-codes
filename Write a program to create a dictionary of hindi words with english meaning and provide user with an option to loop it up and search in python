@@ -1,0 +1,20 @@
+'''
+Write a program to create a dictionary of hindi words with english meaning
+and provide user with an option to loop it up and search in python
+Coded BY Abhishek D Shelar.
+'''
+
+Dict = {
+    "suraj" : "sun",
+    "chand" : "moon",
+    "panni" : "water",
+    "rasta" : "road, way",
+    "dukaan" : "shop",
+    "bazaar" : "market",
+    "sitara" : "star"
+}
+print("Dictionary elements are: ")
+print(Dict.keys())
+
+a = input("Enter your search word in hindi: ")
+print("The meaning of your word in english is: ", Dict[a])
