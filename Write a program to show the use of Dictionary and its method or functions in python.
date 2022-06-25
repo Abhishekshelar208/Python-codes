@@ -1,0 +1,30 @@
+'''
+Write a program to show the use of Dictionary and its method or functions in python.
+Coded BY Abhishek D Shelar.
+'''
+
+Mydict = {
+    "java" : "java is a object oriented programming language",
+    "c": "java is a procedure oriented programming language",
+    "c++": "java is a object oriented programming language",
+    "python": "java is a object oriented programming language",
+    "sql": "Structral query language using for database management"
+    }
+print(Mydict["java"])
+print(Mydict["sql"])
+
+# Dictionary function in python
+print(Mydict.keys()) # this function will only print the keys name available in dictionary.
+print(Mydict.values())
+print(Mydict.items())
+
+newDict = {
+    "siddhesh shinde" : "2nd College friend",
+    "vedant shelar" : "My brother",
+    "sahil ramane" : "school friend",
+    "devashish" : "1st college friend"
+}
+Mydict.update(newDict)  # this method added all the data of newDict into Mydict
+print(Mydict)
+print(newDict.get("vedant D shelar"))  # it will print None if given key is not present in Dictionary
+#print(newDict["vedant D shelar"]) # it will throws an error if given key is not present in Dictionary
