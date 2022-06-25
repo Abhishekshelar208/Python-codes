@@ -1,0 +1,9 @@
+'''
+Write a program to count the numbers of 0 in the following tuple in python
+a = (7,0,8,0,0,9)
+Coded BY Abhishek D Shelar.
+'''
+
+a = (7,0,8,0,0,9)
+
+print(a.count(0))
