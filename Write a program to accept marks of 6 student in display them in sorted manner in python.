@@ -1,0 +1,15 @@
+'''
+Write a program to accept marks of 6 student in display them in sorted manner in python.
+Coded BY Abhishek D Shelar.
+'''
+
+s1 = int(input("Enter marks of Student 1 : "))
+s2 = int(input("Enter marks of Student 2 : "))
+s3 = int(input("Enter marks of Student 3 : "))
+s4 = int(input("Enter marks of Student 4 : "))
+s5 = int(input("Enter marks of Student 5 : "))
+s6 = int(input("Enter marks of Student 6 : "))
+
+Marks = [s1,s2,s3,s4,s5,s6]
+Marks.sort()
+print(Marks)
