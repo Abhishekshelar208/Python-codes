@@ -1,0 +1,27 @@
+'''
+Write a program to demonstrate the use of sets and its methods in python.
+Coded BY Abhishek D Shelar.
+'''
+
+# A set is a collection of non repeatitive elements
+
+a = {1,3,5,6,1,2,3} # this is normal set
+print(a)
+
+b = set()  # this will create empty set in python
+print(b)
+b.add(12)
+b.add(34)
+b.add(11)
+print(b)
+print(len(b))
+b.remove(11)
+print(b)
+b.add(111)
+b.add(98)
+b.add(43)
+print(b)
+b.pop()
+print(b)
+b.clear()  # delete all elements in set
+print(b)
