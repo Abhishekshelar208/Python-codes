@@ -1,0 +1,13 @@
+'''
+Write a program to sum a list with 4 numbers in python.
+Coded BY Abhishek D Shelar.
+'''
+
+s1 = int(input("Enter a number 1: "))
+s2 = int(input("Enter a number 2: "))
+s3 = int(input("Enter a number 3: "))
+s4 = int(input("Enter a number 4: "))
+
+sum = (s1+s2+s3+s4)
+
+print("The sum of all numbers is : ",sum)
