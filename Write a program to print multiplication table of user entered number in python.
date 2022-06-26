@@ -1,0 +1,9 @@
+'''
+Write a program to print multiplication table of user entered number in python.
+Coded BY Abhishek D Shelar.
+'''
+
+num = int(input("Enter a number: "))
+
+for i in range(1,11):
+    print(num*i)
