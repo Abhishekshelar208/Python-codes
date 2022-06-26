@@ -1,0 +1,13 @@
+'''
+Write a program to find out weather a given name is present in out list or not in python.
+Coded BY Abhishek D Shelar.
+'''
+
+name = input("Enter your user name: ")
+
+list  = ["Abhishek","Vedant","kavita"]
+
+if(name in list):
+    print("Present")
+else:
+    print("Not Present")
