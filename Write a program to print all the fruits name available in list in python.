@@ -1,0 +1,11 @@
+'''
+Write a program to print all the fruits name available in list in python.
+Coded BY Abhishek D Shelar.
+'''
+
+fruits = ["Banana","Apple","Mango","Kiwi","Watermelon","PineApple"]
+
+i = 0
+while(i<len(fruits)):
+    print(fruits[i])
+    i = i + 1
