@@ -1,0 +1,26 @@
+'''
+Write a program to generate a spam if given sentences are present in user input text in python.
+make a lot of money
+buy now
+subscribe this
+click this
+Coded BY Abhishek D Shelar.
+'''
+
+text = input("Enter the text: ")
+
+if("make a lot of money" in text):
+    spam = True
+elif("buy now" in text):
+    spam = True
+elif("subscribe this"):
+    spam = True
+elif("click this" in text):
+    spam = True
+else:
+    spam = False
+
+if(spam):
+    print("This is a Spam")
+else:
+    print("This is not a Spam")
