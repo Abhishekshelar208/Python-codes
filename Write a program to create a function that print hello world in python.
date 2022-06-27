@@ -1,0 +1,11 @@
+'''
+Write a program to create a function that print hello world in python.
+Coded BY Abhishek D Shelar.
+'''
+
+def funct():
+    print("Hello world")
+
+funct()
+funct()
+funct()
