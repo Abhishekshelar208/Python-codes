@@ -1,0 +1,11 @@
+'''
+Write a program using function to convert celsius to farenheit in python.
+Coded BY Abhishek D Shelar.
+'''
+
+def Convert():
+    cel = int(input("Enter Celsius : "))
+    formula = (cel*9/5)+32
+    return print("Farenheit is : ", formula)
+
+Convert()
