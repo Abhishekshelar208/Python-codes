@@ -1,0 +1,12 @@
+'''
+Write a program to print factorial of user entered number in python.
+Coded BY Abhishek D Shelar.
+'''
+
+num = int(input("Enter a number: "))
+product = 1
+
+for i in range(num):
+    product = product * (i+1)
+
+print("The factorial is: ", product)
