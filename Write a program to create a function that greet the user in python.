@@ -1,0 +1,10 @@
+'''
+Write a program to create a function that greet the user in python.
+Coded BY Abhishek D Shelar.
+'''
+
+def funct():
+    name = input("Enter your name: ")
+    return print(name + " Good morning and have a good day.")
+
+funct()
