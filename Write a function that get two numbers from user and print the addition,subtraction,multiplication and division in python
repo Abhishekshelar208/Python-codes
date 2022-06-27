@@ -1,0 +1,16 @@
+'''
+Write a function that get two numbers from user and print the addition,subtraction,multiplication and
+division in python
+Coded BY Abhishek D Shelar.
+'''
+
+def ArithmaticOperation():
+    a = int(input("Enter 1st number: "))
+    b = int(input("Enter 2nd number: "))
+    print("Addition is : ",(a + b))
+    print("Subtraction is : ", (a - b))
+    print("Multiplication is : ", (a * b))
+    print("Division is : ", (a / b))
+    print("Modulos is : ",(a % b))
+
+ArithmaticOperation()
