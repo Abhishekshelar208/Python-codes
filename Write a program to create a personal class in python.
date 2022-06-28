@@ -1,0 +1,11 @@
+'''
+Write a program to create a personal class in python.
+Coded BY Abhishek D Shelar.
+'''
+
+class Abhi:
+    def Print(self):
+        print("Abhishek is good boy")
+
+
+Abhi.Print("Abhishek")
