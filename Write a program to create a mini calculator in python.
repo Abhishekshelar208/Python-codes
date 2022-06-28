@@ -1,0 +1,21 @@
+'''
+Write a program to create a mini calculator in python.
+Coded BY Abhishek D Shelar.
+'''
+
+a = int(input("Enter first number: "))
+opr = input("Enter operator: (+,-,*,/,%)")
+b = int(input("Enter second number: "))
+
+if(opr=="+"):
+    print(a+b)
+elif(opr=="-"):
+    print(a-b)
+elif (opr == "*"):
+    print(a * b)
+elif (opr == "/"):
+    print(a / b)
+elif (opr == "%"):
+    print(a % b)
+else:
+    print("Invalid input")
