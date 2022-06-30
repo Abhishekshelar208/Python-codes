@@ -1,0 +1,21 @@
+'''
+Write a program to create a class programmer for storing information of few programmers
+working at Microsoft in python
+Coded By Abhishek D Shelar.
+'''
+
+class Programmer:
+    def Info(self="Stranger"):
+        name = input("Enter your  name: ")
+        sal = int(input("Enter your salary:"))
+        city = input("Enter your city: ")
+        print("Name is : "+ name)
+        print("Salary is : " , sal)
+        print("City is : " + city)
+
+Abhishek = Programmer
+Abhishek.Info()
+Vedant = Programmer
+Vedant.Info()
+Purvesh = Programmer
+Purvesh.Info()
