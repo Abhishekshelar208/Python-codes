@@ -1,0 +1,19 @@
+'''
+Write a program to demonstrate the use of class in python.
+Coded By Abhishek D Shelar.
+'''
+
+class RailwayForm:
+    def info(self="Abhishek"):
+        name = input("Enter your name: ")
+
+    def PRINT(self="Abhsihek"):
+        print("Your registration will successfully done")
+
+
+Abhi = RailwayForm
+Vedant = RailwayForm
+Abhi.info()
+Vedant.info()
+Abhi.PRINT()
+Vedant.PRINT()
