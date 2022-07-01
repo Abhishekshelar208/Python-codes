@@ -1,0 +1,46 @@
+'''
+Write a program to make A Adventure Game in python.
+Coded By Abhishek D Shelar.
+'''
+
+print('''WELCOME TO "THE ADVENTURE GAME"
+RULES :
+1. ONLY CAPITAL CASE ALLOWED.''')
+
+print("LETS START THE GAME : ")
+name = input("ENTER YOUR NAME: ")
+print("Welcome "+name+" to this Adventure! ")
+adventure1 = input("You are on a dirt road, you have only two option either go LEFT or go RIGHT: (LEFT / RIGHT): ")
+if(adventure1=="LEFT"):
+    adventure4 = input("You came to a swimming pool, what do you do ? (SWIM / WALK): ")
+    if(adventure4=="SWIM"):
+        adventure5 = input("You cross the swimming pool and you see there is two hanging rope , which rope do you want to pull (LEFT / RIGHT): ")
+        if(adventure5=="LEFT"):
+            print("You get Trophy and you Won the Game..")
+            print("Congratulations .. "+name)
+        elif(adventure5=="RIGHT"):
+            print("You choose right rope but this is not rope it is Snake , and you Loose the Game")
+        else:
+            print("Invalid input.")
+    elif(adventure4=="WALK"):
+        print("You cannot walk on water, you Loose Game..")
+        print("Nice try......" + name)
+    else:
+        print("Invalid input.")
+elif(adventure1=="RIGHT"):
+    adventure2 = input("You come to a bridge, i looks wobbly, do you want to cross it or head back (CROSS / BACK): ")
+    if(adventure2=="CROSS"):
+        adventure3 = input("You cross the bridge and meet a stranger, Do you want to Talk with Stranger(YES / NO ): ")
+        if(adventure3=="YES"):
+            print("You talk with stranger and he gives you Trophy, you Won this Game..")
+            print("Congratulation .. "+name)
+        elif(adventure3=="NO"):
+            print("You ignor the stranger and they are offend and you Loose the Game.")
+            print("Nice try......" + name)
+        else:
+            print("Invalid Input")
+    elif(adventure2=="BACK"):
+        print("You come back it means you Loose the Game..")
+        print("Nice try......"+name)
+else:
+    print("Invalid Input")
