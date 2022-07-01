@@ -1,0 +1,37 @@
+'''
+Write a program to build a Number Guessing Game in python.
+Coded By Abhishek D Shelar.
+'''
+import random
+
+num = random.randint(1,100)
+print("Welcome to Number Guessing Game.")
+print("Range(1 TO 100)")
+print('''Rules:
+1. You have only 10 chances to win this game.
+2. Do not enter any negative number
+3. You have to enter a valid number(1 to 100)''')
+i = 1
+while(i<=10):
+    print("Chance: ",i)
+    i = i + 1
+    user = int(input(" Enter a number: "))
+    if(user==num):
+        print("Match Found...")
+        print("You Won This Game.... Congratulations.....")
+        print("Your number: ",user)
+        print("Our number: ",num)
+        break
+    else:
+        if(user>0) and (user<100):
+            if(user>num):
+                print("Your number is Greater...")
+            elif(user<num):
+                print("Your number is Smaller...")
+        else:
+            print("Your number is Out of Range...")
+            break
+
+if(user!=num):
+    print("You loose the Game...")
+    print("Our number is: ",num)
