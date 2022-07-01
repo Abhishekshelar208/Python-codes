@@ -1,0 +1,58 @@
+'''
+Write a program to make a Quick Quiz project in python.
+Coded By Abhishek D Shelar.
+'''
+
+print("Welcome to Quick Quiz Game: ")
+print("ONLY CAPITAL CASE ARE ALLOWED....")
+print('''Type 'YES' If You Want To Play This Game: ''')
+
+user = input("Enter (YES / NO ): ")
+score = 0
+
+if(user=="YES"):
+    print("OK LETS PLAY GAME: ")
+    print('''ANSWER MUST BE IN "CAPITAL CASE" ''')
+    CPU = input("QUESTION 1: What does the CPU Stands for? ")
+    if(CPU == "CENTRAL PROCESSING UNIT"):
+        print("Correct Answer....")
+        score += 1
+    else:
+        print("Incorrect Answer....")
+    GPU = input("QUESTION 2: What does the GPU Stands for? ")
+    if(GPU == "GRAPHICS PROCESSING UNIT"):
+        print("Correct Answer....")
+        score += 1
+    else:
+        print("Incorrect Answer....")
+
+    RAM = input("QUESTION 3: What does the RAM Stands for? ")
+    if (RAM == "RANDOM ACCESS MEMORY"):
+        print("Correct Answer....")
+        score += 1
+    else:
+        print("Incorrect Answer....")
+
+    ROM = input("QUESTION 4: What does the ROM Stands for? ")
+    if (ROM == "READ ONLY MEMORY"):
+        print("Correct Answer....")
+        score += 1
+    else:
+        print("Incorrect Answer....")
+
+elif(user=="NO"):
+    print("OK NO PROBLEM .. ")
+else:
+    print("INVALID INPUT...")
+
+
+print("GAME IS FINISHED...")
+print("YOUR SCORE IS: ", score)
+formula = (score / 4) * 100
+print("YOU GOT: ", formula, "%")
+
+print('''THE CORRECT ANSWERS ARE:
+1. CENTRAL PROCESSING UNIT
+2. GRAPHICS PROCESSING UNIT
+3. RANDOM ACCESS MEMORY
+4. READ ONLY MEMORY.''')
