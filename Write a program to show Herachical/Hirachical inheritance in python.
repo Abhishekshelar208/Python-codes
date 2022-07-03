@@ -1,0 +1,23 @@
+'''
+Write a program to show Herachical / Hirachical inheritance in python.
+Coded BY Abhishek Dadasaheb Shelar.
+'''
+
+class Parent1:
+    def Details(self):
+        print("I am Base / Parent class....")
+
+
+class Child1(Parent1):
+    def details1(self):
+        print("I am Derived / Child class....")
+
+class Child2(Parent1):
+    def details2(self):
+        print("I am Derived2 / Child2 class....")
+
+A1 = Child1()
+A2 = Child2()
+A1.Details()
+A1.details1()
+A2.details2()
