@@ -1,0 +1,18 @@
+'''
+Write a program to show single inheritance in python.
+Coded BY Abhishek Dadasaheb Shelar.
+'''
+
+class Parent:
+    def Details(self):
+        print("I am Base / Parent class....")
+
+
+class Child(Parent):
+    def details(self):
+        print("I am Derived / Child class....")
+
+
+Abhi = Child()
+Abhi.Details()
+Abhi.details()
