@@ -1,0 +1,24 @@
+'''
+Write a program to Demonstrate the use of Inheritance in python.
+Coded BY Abhishek Dadasaheb Shelar.
+'''
+
+class Vehicle:       # This is Base Class
+    def get_details(self,milege, cost):
+        self.milege = milege
+        self.cost = cost
+    def show_details(self):
+        print("Milege is: ",self.milege)
+        print("Cost is: ",self.cost)
+
+class Car(Vehicle):    # This is Derived Class
+    def details(self):
+        print("I am Car")
+    def details(self):
+        print("The Car details is: ")
+        print("Milege is: ", self.milege)
+        print("Cost is: ",self.cost)
+
+Skoda = Car()
+Skoda.get_details("BMW",121222)
+Skoda.details()
