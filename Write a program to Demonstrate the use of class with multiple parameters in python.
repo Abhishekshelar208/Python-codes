@@ -1,0 +1,19 @@
+'''
+Write a program to Demonstrate the use of class with multiple parameters in python.
+Coded BY Abhishek Dadasaheb Shelar.
+'''
+
+class Phone:
+    def get_details(self,brand,color, price):
+        self.brand = brand
+        self.color = color
+        self.price = price
+    def show_details(self):
+        print("Phone Brand is: ", self.brand)
+        print("Phone color: ",self.color)
+        print("Phone price: ",self.price)
+
+iphoneX = Phone()
+
+iphoneX.get_details("Apple","Silver","100000")
+iphoneX.show_details()
