@@ -1,0 +1,22 @@
+'''
+Write a program to show multi-level / multi level inheritance in python.
+Coded BY Abhishek Dadasaheb Shelar.
+'''
+
+class Parent:
+    def Details(self):
+        print("I am Base / Parent class....")
+
+
+class Child1(Parent):
+    def details1(self):
+        print("I am Derived / Child class....")
+
+class Child2(Child1):
+    def details2(self):
+        print("I am Derived2 / Child2 class....")
+
+Abhi = Child2()
+Abhi.Details()
+Abhi.details1()
+Abhi.details2()
