@@ -1,0 +1,22 @@
+'''
+Write a program to show Multiple inheritance in python.
+Coded BY Abhishek Dadasaheb Shelar.
+'''
+
+class Parent1:
+    def Details(self):
+        print("I am Base / Parent class....")
+
+
+class Parent2:
+    def details1(self):
+        print("I am Derived / Child class....")
+
+class Child2(Parent1,Parent2):
+    def details2(self):
+        print("I am Derived2 / Child2 class....")
+
+Abhi = Child2()
+Abhi.Details()
+Abhi.details1()
+Abhi.details2()
