@@ -1,0 +1,9 @@
+'''
+Write a program to get any 5 random numbers form ranger 1 to 100 in python.
+Coded BY Abhishek Dadasaheb Shelar.
+'''
+
+import numpy as np
+
+n1 = np.random.randint(1,101,5)
+print(n1)
