@@ -1,0 +1,34 @@
+'''
+Write a program to make a simple calculator 2 in Python.
+Coded BY Abhishek D Shelar.
+'''
+def Logic():
+    a = int(input("Enter first number: "))
+    print("choice: +, -, *, /, % ")
+    ch = input("Enter Choice: ")
+    b = int(input("Enter second number: "))
+    while True:
+        if(ch=="+"):
+            print("Addition is: ",(a+b))
+            break
+        elif (ch == "-"):
+            print("Subtraction is: ", (a - b))
+            break
+        elif (ch == "*"):
+            print("Multiplication is: ", (a * b))
+            break
+        elif (ch == "/"):
+            print("Division is: ", (a / b))
+            break
+        elif (ch == "%"):
+            print("Modulo is: ", (a % b))
+            break
+        else:
+            print("Invalid Input.")
+while True:
+    user = input('''Type "YES" or "NO" to Perfrom Operation''')
+    if user == "YES":
+        Logic()
+    else:
+        print("Exit Successfully....")
+        break
