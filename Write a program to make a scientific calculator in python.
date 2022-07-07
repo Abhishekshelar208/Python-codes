@@ -1,0 +1,51 @@
+'''
+Write a program to make a scientific calculator in python.
+Coded BY Abhishek D Shelar.
+'''
+import math
+num = int(input("Enter no of enteries: "))
+for i in range(0,num):
+    print('''Choose: 
+    1. Addition 
+    2. Subtraction
+    3. Multiplication
+    4. Division
+    5. Modulo
+    6. Factorial
+    7. Log
+    ''')
+    ch = int(input("Enter choice: "))
+    if (ch == 1):
+        a = int(input("Enter 1st number: "))
+        b = int(input("Enter 2nd number: "))
+        print("Addition is: ", (a + b))
+    elif (ch == 2):
+        a = int(input("Enter 1st number: "))
+        b = int(input("Enter 2nd number: "))
+        print("Subtraction is: ", (a - b))
+    elif (ch == 3):
+        a = int(input("Enter 1st number: "))
+        b = int(input("Enter 2nd number: "))
+        print("Multiplication is: ", (a * b))
+    elif (ch == 4):
+        a = int(input("Enter 1st number: "))
+        b = int(input("Enter 2nd number: "))
+        print("Division is: ", (a / b))
+    elif (ch == 5):
+        a = int(input("Enter 1st number: "))
+        b = int(input("Enter 2nd number: "))
+        print("Module is: ", (a % b))
+    elif (ch == 6):
+        a = int(input("Enter number for find factorial : "))
+        print("Factorial is: ", math.factorial(a))
+    elif (ch == 6):
+        a = int(input("Enter number for find factorial : "))
+        print("Factorial is: ", math.factorial(a))
+    elif (ch == 7):
+        a = int(input("Enter a Number: "))
+        base = int(input("Enter base: "))
+        print("Log is: ", math.log(a, base))
+    else:
+        print("Invalid Input")
+
+
