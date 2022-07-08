@@ -1,0 +1,15 @@
+'''
+Write a program using lambda function in python
+Coded BY Abhishek D Shelar.
+'''
+
+a = lambda x, y: x+y
+b = lambda x, y: x-y
+c = lambda x, y: x*y
+d = lambda x, y: x/y
+num1 = int(input("Enter 1st number: "))
+num2 = int(input("Enter 2nd number: "))
+print(a(num1,num2))
+print(b(num1,num2))
+print(c(num1,num2))
+print(d(num1,num2))
