@@ -1,0 +1,12 @@
+'''
+Write a program using lambda function using filter function in python.
+Coded BY Abhishek D Shelar.
+'''
+
+L = [1,2,3,4,5,6,7,8]
+Ls = list(filter(lambda x : (x%2==0), (L)))
+print(Ls)
+
+L2 = [1,2,3,4,5,6,7,8]
+Ls2 = list(filter(lambda x : (x%2!=0), (L2)))
+print(Ls2)
