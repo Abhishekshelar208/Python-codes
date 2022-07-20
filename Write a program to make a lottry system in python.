@@ -1,0 +1,26 @@
+'''
+Write a program to make a lottry system in python.
+'''
+import random
+'''
+num = random.randint(1,20)
+while True:
+    user = int(input("Enter number Between 1 to 20 :"))
+    if(user==num):
+        print("Congratulation , You win the Lottary.")
+    else:
+        print("Sorry please try again.")
+        print("Lottary number is: ", num)
+        break
+'''
+
+"""
+num = 15
+com = (random.randint(1,20))
+if(num==com):
+    print("Congratulation")
+else:
+    print("Please try again ", com)
+"""
+
+
