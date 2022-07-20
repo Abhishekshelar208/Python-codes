@@ -1,0 +1,10 @@
+'''
+Clever trick no 1
+If you want to get multiple input in one input statement then try this.
+'''
+
+a,b,c = input("Enter three number: ").split()
+print(a)
+print(b)
+print(c)
+
