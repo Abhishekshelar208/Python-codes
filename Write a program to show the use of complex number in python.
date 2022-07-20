@@ -1,0 +1,7 @@
+'''
+Write a program to show the use of complex number in python.
+'''
+
+c = 5+4J
+print(isinstance(c,complex))
+
