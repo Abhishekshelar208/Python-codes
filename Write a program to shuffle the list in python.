@@ -1,0 +1,9 @@
+'''
+Write a program to shuffle the list in python.
+'''
+import random
+
+x = [1,2,3,4,5,6,7]
+random.shuffle(x)
+print(x)
+
