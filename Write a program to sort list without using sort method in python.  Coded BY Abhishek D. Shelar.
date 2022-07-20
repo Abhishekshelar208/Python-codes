@@ -1,0 +1,14 @@
+'''
+Write a program to sort list without using sort method in python.
+Coded BY Abhishek D. Shelar.
+'''
+
+arr = [100,-4,22,2,33,0,33,3,33]
+
+for i in range(0,len(arr)):
+    for j in range(i + 1, len(arr)):
+        if(arr[i]>=arr[j]):
+            arr[i], arr[j] = arr[j], arr[i]
+
+print(arr)
+
