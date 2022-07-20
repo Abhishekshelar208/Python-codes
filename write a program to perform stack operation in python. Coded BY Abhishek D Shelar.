@@ -1,0 +1,38 @@
+'''
+write a program to perform stack operation in python.
+Coded BY Abhishek D Shelar.
+'''
+
+size = int(input("Enter Stack size: "))
+for i in range(size):
+    Stack = []
+
+while True:
+    ch = int(input('''Choose:
+    1. Insert
+    2. Pop
+    3. Display
+    4. Exit
+    '''))
+    if (ch == 1):
+        if(len(Stack)<size):
+            Insert = int(input("Enter element: "))
+            Stack.append(Insert)
+        else:
+            print("Stack is overflow")
+
+    elif (ch == 2):
+        if(len(Stack)==0):
+            print("Stack is Empty")
+        else:
+            print(Stack.pop())
+    elif (ch == 3):
+        print(Stack)
+    elif (ch == 4):
+        print("Exit Successfully")
+        break
+    else:
+        print("Invalid input")
+
+
+
