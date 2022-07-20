@@ -1,0 +1,22 @@
+'''
+Write a program to make a Lottery System in Python.
+'''
+
+import random
+
+Mydict = {
+    '1': "Siddesh Shinde",
+    '2': "Tejas Jadhav",
+    '3': "Anushka Sawant",
+    '4': "Aryan Ranjane",
+    '5': "Abhishek Shelar",
+    '6': "Pradnya Kamble",
+    '7': "Siddhant Mhamhunkar",
+}
+
+x = random.randint(1,7)
+for i in Mydict:
+    if(i==str(x)):
+        print("Congratulation, You win the Lottery ", i)
+        break
+
