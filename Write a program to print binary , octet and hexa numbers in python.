@@ -1,0 +1,9 @@
+'''
+Write a program to print binary , octet and hexa numbers in python.
+'''
+
+print(0b101010101)
+print(0o12)
+print(0xFB)
+
+
