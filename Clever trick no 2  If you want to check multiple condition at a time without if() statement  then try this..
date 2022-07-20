@@ -1,0 +1,26 @@
+'''
+Clever trick no 2
+If you want to check multiple condition at a time without if() statement
+then try this..
+'''
+
+a = 100
+b = 75
+c = 50
+
+List = [
+    a > 50,
+    b > 40,
+    c > 30
+]
+if all(List):    # all() is check that all condition must be True.
+    print("Condition is True")
+else:
+    print("Condition is False")
+
+if any(List):    # all() is check that any one condition must be True.
+    print("Condition is True")
+else:
+    print("Condition is False")
+
+
