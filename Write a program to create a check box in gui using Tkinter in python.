@@ -1,0 +1,14 @@
+'''
+Write a program to create a check box in gui using Tkinter in python.
+'''
+
+import tkinter as tk
+top = tk.Tk()
+check = tk.IntVar()
+check2 = tk.IntVar()
+c1 = tk.Checkbutton(top,text="Abhishek",variable=check,onvalue=1,offvalue=0,height=5,width=20)
+c2 = tk.Checkbutton(top,text="Shelar",variable=check2,onvalue=1,offvalue=0,height=5,width=20)
+c1.pack()
+c2.pack()
+top.mainloop()
+
