@@ -1,0 +1,11 @@
+'''
+Write a program to create a simple button in gui using Tkinter in python.
+'''
+
+import tkinter as tk
+top = tk.Tk()
+B = tk.Button(top,text="Abhishek")
+B.pack()
+top.mainloop()
+
+
