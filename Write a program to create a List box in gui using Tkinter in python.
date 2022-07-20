@@ -1,0 +1,15 @@
+'''
+Write a program to create a List box in gui using Tkinter in python.
+'''
+
+import tkinter as tk
+top = tk.Tk()
+A = tk.Listbox(top)
+A.insert(1,"Abhsihek")
+A.insert(2,"Vedant")
+A.insert(3,"Om")
+A.insert(4,"Shinde")
+A.insert(5,"Tejas")
+A.pack()
+top.mainloop()
+
