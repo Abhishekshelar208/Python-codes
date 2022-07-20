@@ -1,0 +1,12 @@
+'''
+write a program to demonstate the use of queue in python.
+Coded BY Abhishek D Shelar.
+'''
+
+from collections import deque
+q = deque([1,2,3,4,5])
+q.append(6)
+print(q)
+q.popleft()
+print(q)
+
