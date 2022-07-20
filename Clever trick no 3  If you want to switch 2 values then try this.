@@ -1,0 +1,22 @@
+'''
+Clever trick no 3
+If you want to switch 2 values then try this.
+'''
+
+a = 10
+b = 20
+
+#This is old method
+'''temp = a
+a = b
+b = temp
+print(a,b)'''
+
+# new method is:
+
+a,b = b, a  # swapping of two numbers
+
+print(a,b)
+
+
+
