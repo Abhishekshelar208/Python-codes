@@ -1,0 +1,15 @@
+'''
+Write a program to get data from table from mysql in python.
+'''
+
+import pymysql
+db = pymysql.connect(host="localhost",user="root",password="Abhishek@1234",database="test")
+cursor = db.cursor()
+s = 'SELECT * FROM EMPLOYEE2'
+cursor.execute(s)
+for row in cursor:
+    print(row)
+db.commit()
+db.close()
+
+
