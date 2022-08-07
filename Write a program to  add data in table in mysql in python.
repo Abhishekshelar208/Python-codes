@@ -1,0 +1,13 @@
+‘’’
+Write a program to  add data in table in mysql in python.
+‘’’
+
+import pymysql
+db = pymysql.connect(host="localhost",user="root",password="Abhishek@1234",database="test")
+cursor = db.cursor()
+fname = input("Enter first name:")
+lname = input("Enter last name:")
+sql2 = ('''INSERT INTO `EMPLOYEE2`(FIRST_NAME,LAST_NAME)VALUES('%s','%s')'''%(fname,lname))
+cursor.execute(sql2)
+db.commit()
+db.close()
