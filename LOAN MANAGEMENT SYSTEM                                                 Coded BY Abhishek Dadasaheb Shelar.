@@ -1,0 +1,54 @@
+'''
+
+                                                    LOAN MANAGEMENT SYSTEM
+                                                Coded BY Abhishek Dadasaheb Shelar.
+'''
+
+
+print("WELCOME TO LOAN MANAGEMENT SYSTEM")
+ch = int(input('''Choose Loan Type: 
+1. HOME LOAN
+2. PERSONAL LOAN 
+3. CAR LOAN
+'''))
+if(ch==1):
+    print("WELCOME TO HOME LOAN EMI CALCULATOR ")
+    amt = float(input("Enter Loan Amount: "))
+    rate = float(input("Enter Rate of Interest: "))
+    time = float(input("Enter Time Period (In Years): "))
+   # EMI = (amt * rate * (1 + rate) ^ time) / ((1 + rate) ^ time - 1)
+    EMI = amt * rate / (1 - 1 / (1 + rate) ** (time * 12))
+    print("Loan Amount Is : ", amt)
+    print("Rate of Interest Is: ", rate)
+    print("Time Period Is: ", time)
+    print("Calculating EMI Amount.........")
+    print("Just A Second......")
+    print("Total HOME EMI Amount Is: ", EMI)
+
+elif(ch==2):
+    print("WELCOME TO PERSONAL LOAN EMI CALCULATOR ")
+    amt = float(input("Enter Loan Amount: "))
+    rate = float(input("Enter Rate of Interest: "))
+    time = float(input("Enter Time Period (In Years): "))
+    EMI = amt * rate / (1 - 1 / (1 + rate) ** (time * 12))
+    print("Loan Amount Is : ", amt)
+    print("Rate of Interest Is: ", rate)
+    print("Time Period Is: ", time)
+    print("Calculating EMI Amount.........")
+    print("Just A Second......")
+    print("Total PERSONAL EMI Amount Is: ", EMI)
+elif(ch==3):
+    print("WELCOME TO CAR LOAN EMI CALCULATOR ")
+    amt = float(input("Enter Loan Amount: "))
+    rate = float(input("Enter Rate of Interest: "))
+    time = float(input("Enter Time Period (In Years): "))
+    EMI = amt * rate / (1 - 1 / (1 + rate) ** (time * 12))
+    print("Loan Amount Is : ", amt)
+    print("Rate of Interest Is: ", rate)
+    print("Time Period Is: ", time)
+    print("Calculating EMI Amount.........")
+    print("Just A Second......")
+    print("Total CAR EMI Amount Is: ", EMI)
+else:
+    print("Invalid Input")
+    print("Please Try Again.......")
