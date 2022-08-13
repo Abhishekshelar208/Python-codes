@@ -1,0 +1,104 @@
+'''
+Write a program to make a Quiz Game with 10 Basic question in python.
+Coded by Abhishek Dadasaheb Shelar.
+'''
+
+print("Welcome to Quick Quiz Game: ")
+print("ONLY CAPITAL CASE ARE ALLOWED....")
+print('''Type 'YES' If You Want To Play This Game: ''')
+
+user = input("Enter (YES / NO ): ")
+score = 0
+
+if(user=="YES"):
+    print("OK LETS PLAY GAME: ")
+    print('''ANSWER MUST BE IN "CAPITAL CASE" ''')
+    CPU = input("QUESTION 1: What does the CPU Stands for? ")
+    if(CPU == "CENTRAL PROCESSING UNIT"):
+        print("Correct Answer....")
+        score += 1
+    else:
+        print("Incorrect Answer....")
+    GPU = input("QUESTION 2: What does the GPU Stands for? ")
+    if(GPU == "GRAPHICS PROCESSING UNIT"):
+        print("Correct Answer....")
+        score += 1
+    else:
+        print("Incorrect Answer....")
+
+    RAM = input("QUESTION 3: What does the RAM Stands for? ")
+    if (RAM == "RANDOM ACCESS MEMORY"):
+        print("Correct Answer....")
+        score += 1
+    else:
+        print("Incorrect Answer....")
+
+    ROM = input("QUESTION 4: What does the ROM Stands for? ")
+    if (ROM == "READ ONLY MEMORY"):
+        print("Correct Answer....")
+        score += 1
+    else:
+        print("Incorrect Answer....")
+    API = input("QUESTION 5: What does the API Stands for? ")
+    if (API == "APPLICATION PROGRAMMING INTERFACE"):
+        print("Correct Answer....")
+        score += 1
+    else:
+        print("Incorrect Answer....")
+    USB = input("QUESTION 6: What does the USB Stands for? ")
+    if (USB == "UNIVERSAL SERIAL BUS"):
+        print("Correct Answer....")
+        score += 1
+    else:
+        print("Incorrect Answer....")
+    VIRUS = input("QUESTION 7: What does the VIRUS Stands for? ")
+    if (VIRUS == "VITAL INFORMATION RESOURCE UNDER SIEGE"):
+        print("Correct Answer....")
+        score += 1
+    else:
+        print("Incorrect Answer....")
+    DVD = input("QUESTION 8: What does the DVD Stands for? ")
+    if (DVD == "DIGITAL VERSATILE DISC"):
+        print("Correct Answer....")
+        score += 1
+    else:
+        print("Incorrect Answer....")
+    SMPS = input("QUESTION 9: What does the SMPS Stands for? ")
+    if (SMPS == "SWITCHED MODE POWER SUPPLY"):
+        print("Correct Answer....")
+        score += 1
+    else:
+        print("Incorrect Answer....")
+    HTTP = input("QUESTION 10: What does the HTTP Stands for? ")
+    if (HTTP == "HYPER TEXT TRANSFER PROTOCOL"):
+        print("Correct Answer....")
+        score += 1
+    else:
+        print("Incorrect Answer....")
+
+elif(user=="NO"):
+    print("OK NO PROBLEM .. ")
+else:
+    print("INVALID INPUT...")
+
+
+print("GAME IS FINISHED...")
+print("YOUR SCORE IS: ", score)
+formula = (score / 10) * 100
+print("YOU GOT: ", formula, "%")
+
+print('''THE CORRECT ANSWERS ARE:
+1. CENTRAL PROCESSING UNIT
+2. GRAPHICS PROCESSING UNIT
+3. RANDOM ACCESS MEMORY
+4. READ ONLY MEMORY.
+5. APPLICATION PROGRAMMING INTERFACE
+6. UNIVERSAL SERIAL BUS
+7. VITAL INFORMATION RESOURCE UNDER SIEGE
+8. DIGITAL VERSATILE DISC
+9. SWITCHED MODE POWER SUPPLY
+10. HYPER TEXT TRANSFER PROTOCOL''')
+
+
+
+
